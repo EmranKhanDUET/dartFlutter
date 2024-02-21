@@ -3,9 +3,9 @@
 
 void main(){
   const int a =10;
-  a=5;
+  // a=5;
 
   final int b=100;
-  b=5000;
+  // b=5000;
 
 }
