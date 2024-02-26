@@ -1,4 +1,4 @@
-class myClass {
+class MyClass {
   // properties/attributes
   var myName = 'Emran';
   List Alpha = [1, 2, 3, 4];
@@ -14,7 +14,7 @@ class myClass {
 }
 
 void main() {
-  var obj = new myClass();
+  var obj = new MyClass();
   obj.addTwonumbers(10, 2);
   obj.addThreenumbers(10, 2,5);
   print(obj.myName);
