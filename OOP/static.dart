@@ -1,5 +1,6 @@
 // static keyword used to associate class's property
 // directly to the class , rather than the object
+//Jokhon class er kono property/attribute or method
 
 class myClass {
   var myName = 'Emran';
