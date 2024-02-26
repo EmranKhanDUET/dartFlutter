@@ -1,7 +1,9 @@
 class myClass {
+  // properties/attributes
   var myName = 'Emran';
   List Alpha = [1, 2, 3, 4];
 
+  // method
   void addTwonumbers(int x, int y) {
     print(x + y);
   }
