@@ -14,6 +14,9 @@ abstract class Student {
   void eating() {
     print('Eating food');
   }
+   Student(){
+    print('cvxvcx');
+  }
 }
 
 class CSEStudent extends Student {
