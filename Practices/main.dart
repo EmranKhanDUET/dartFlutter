@@ -1,13 +1,11 @@
-
 import 'class.dart';
 
-void main(){
-Person emran=new Person(firstName: 'Emran',
-    lastName: 'Khan', education: 'DUET',age: 50);
-print(emran.firstName);
-print(emran.lastName);
-print(emran.age);
-print(emran.getFullName());
-
-
+void main() {
+  Person random = new Person('Emran', "Khan", 23, 'DUET', "Male");
+  print(random.getFullName());
+  print(random.getAge);
+  random.setAge = 50;
+  print(random.getAge);
+  random.setAge = 10050;
+  print(random.getAge);
 }
