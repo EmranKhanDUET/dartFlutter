@@ -19,7 +19,7 @@ class Man {
   }
 }
 
-// child class
+// child class/subclass
 class Student extends Man {
   String institute;
   String section;

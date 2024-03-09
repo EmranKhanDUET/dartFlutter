@@ -1,27 +1,18 @@
-class Person {
-  String _firstName;
-  String _lastName;
-  int _age;
-  String _education;
-  String _gender;
+class Person{
+  String firstName;
+  String lastName;
+  int age;
+  Person({required this.firstName,required
+  this.lastName,required this.age});
+}
+class Staff extends Person{
+  String institution;
+  String dept;
+  Staff({required super.firstName,required
+  super.lastName,required super.age, required this.institution,
+  required this.dept});
+}
+class Teacher extends Staff{
+  Teacher({required super.firstName, required super.lastName, required super.age, required super.institution, required super.dept});
 
-  Person(this._firstName, this._lastName, this._age, this._education,
-      this._gender);
-
-  String getFullName() {
-    return this._firstName + ' ' + this._lastName;
-  }
-
-  int get getAge {
-    return _age;
-  }
-  set setAge(int age){
-    if(age>=18 && age<=120){
-      _age=age;
-      print('Age changed successfully');
-    }
-    else{
-      print('Age unchanged due to invalid range ');
-    }
-  }
 }
