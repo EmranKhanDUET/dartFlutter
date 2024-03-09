@@ -2,7 +2,7 @@
 // encapsulation(Identifier er age underscore) hoy nah, 2 ta k alada alada file e rekhe
 // import korte hoy
 
-import '6 class.dart';
+import 'class.dart';
 
 void main() {
   var randomPerson = new Person('Emran', 'Khan', 'Male', 22);
