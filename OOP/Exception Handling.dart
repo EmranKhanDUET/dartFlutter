@@ -12,7 +12,7 @@ void main() {
     //if on-block performed then catch-block will not be executed
     print("FormatException Happened");
   } catch (exception) {
-    //autometically catches exception type
+    //automatically catches exception type
     print(exception);
   } finally {
     //finally-block always being executed
@@ -24,7 +24,7 @@ void calculation() {
 
   // int result = 10 ~/ 0; //IntegerDivisionByZeroException
   int x = int.parse('10a'); //FormatException
-  throw "Cant't Handle"; //throw=> used to make Custom exception
+  throw "Can't Handle"; //throw=> used to make Custom exception
 }
 
 
