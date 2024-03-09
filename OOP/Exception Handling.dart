@@ -21,11 +21,16 @@ void main() {
 }
 
 void calculation() {
-
   // int result = 10 ~/ 0; //IntegerDivisionByZeroException
-  int x = int.parse('10a'); //FormatException
-  throw "Can't Handle"; //throw=> used to make Custom exception
+  // int x = int.parse('10a'); //FormatException
+  // throw "Can't Handle"; //throw=> used to make Custom exception directly
+  throw CustomException(); //we can also throw custom exception by Exception-class implementation
 }
 
+class CustomException implements Exception {
 
-//
+  @override
+  String toString() {
+    return "This is an custom exception by Exception Class implementation";
+  }
+}
