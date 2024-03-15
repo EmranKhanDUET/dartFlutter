@@ -17,6 +17,6 @@ void main() {
   List discountedFruits = applyPriceDiscount(inpList: fruits, discount: discountRate);
 
   // Displaying price chart after applying discount
-  print("Fruit Details After Applying ${discountRate}% Discount:");
+  print("\nFruit Details After Applying ${discountRate}% Discount:");
   displayFruitDetails(inpList: discountedFruits);
 }
